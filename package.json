@@ -33,6 +33,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --watchAll false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -62,7 +63,9 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/react-hooks": "^5.1.2",
     "@types/react-router-dom": "^5.1.7",
-    "@types/styled-components": "^5.1.7"
+    "@types/styled-components": "^5.1.7",
+    "axios-mock-adapter": "^1.19.0"
   }
 }
